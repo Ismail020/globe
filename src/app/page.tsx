@@ -9,7 +9,7 @@ import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
 
 export default function Home() {
   useEffect(() => {
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaXNtYWlsMDIwYyIsImEiOiJjbHppZDFtam4wY3E3MnFyMWljbGwwcXAzIn0.Cfm6NtACDQhtjdG4PByR8w';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiaXNtYWlsMDIwYyIsImEiOiJja3IxcWhpc3UyNGc1MnZxYXptc25keDM4In0.Q89FvjWhkZ0qqB-MXotU3g';
     const map = new mapboxgl.Map({
       container: 'map',
       center: [-74.5, 40],
